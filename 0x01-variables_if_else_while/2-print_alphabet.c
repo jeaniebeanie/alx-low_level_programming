@@ -1,22 +1,21 @@
-#include <stdio.h> 
-
-/** 
- *  main - Entry Point 
+#include <stdio.h>
+/**
+ * main -Entry point
  *
- *
- *  Return : Always 0 (Success)
+ * Return: Always 0 (Success/correct)
  */
-
 int main(void)
+
 {
-	char alphabet;
+char alphabet;
 
-	for (alphabet = 'a' ; alphabet <= 'z' ; alphabet (++))
-	{
-		putchar(alphabet);
-	}
-	
-		put char('\n'); 
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+{
+putchar(alphabet);
+}
 
-	return(0);
+putchar('\n');
+
+return (0);
+
 }
