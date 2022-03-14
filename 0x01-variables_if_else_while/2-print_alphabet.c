@@ -4,14 +4,14 @@
  *  main - Entry Point 
  *
  *
- *  Return : Always 0 (Sucess)
+ *  Return : Always 0 (Success)
  */
 
 int main(void)
 {
 	char alphabet;
 
-	for (alphabet = 'a': alphabet <= 'z' ; alphabet (++))
+	for (alphabet = 'a' ; alphabet <= 'z' ; alphabet (++))
 	{
 		putchar(alphabet);
 	}
@@ -19,4 +19,4 @@ int main(void)
 		put char('\n'); 
 
 	return(0);
-
+}
