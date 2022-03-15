@@ -1,9 +1,9 @@
 #include "main.h"
 
-/** Main - Entry point
- *
- *
- * Return - Always (0)
+/**
+ * _islower - Short description, single line
+ * @c: contains value to be compared
+ * Return: Always 0.
  */ 
 
 void print_alphabet_x10(void)
